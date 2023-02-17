@@ -34,21 +34,21 @@ chats: {},
 ...(global.db || {})
 }
 
-global.ownerName = 'El Diablo'
+global.ownerName = 'Asif Khan'
 global.ownerNumber = ["923474187615@s.whatsapp.net"]
-global.packname = 'Dani'
-global.author = '🗿'
+global.packname = 'Asif'
+global.author = 'You'
 global.prefa = ['','.']
 global.mess = {
-    wait: 'Tunggu Bwanhh!!',
-    succes: 'Gimana Bwanh?',
-    admin: 'Emang Lu Admin??',
-    botAdmin: 'Bot Belum Admin Kocak',
-    owner: 'Lu Siapa Kocak?',
-    group: 'Khusus Grup bwanh',
-    private: 'Khusus Privat bwanh',
+    wait: 'Wait!!',
+    succes: 'Done ✅',
+    admin: 'Its Admin??',
+    botAdmin: 'Bot Not Yet Admin Hilarious',
+    owner: 'Lu Who Funny?',
+    group: 'Only Group Special',
+    private: 'Only Private Special',
     bot: 'Bot Number User Special Features!!!',
-    error: 'Error Sis, Please Chat Owner...',
+    error: 'Error, Please Chat Owner...',
 }
 module.exports = diablo = async (diablo, diablobotwhatsapp, chatUpdate, store) => {
 try {
@@ -68,13 +68,13 @@ try {
         const text = q = args.join(" ")
         const quoted = diablobotwhatsapp.quoted ? diablobotwhatsapp.quoted : diablobotwhatsapp
         const mime = (quoted.msg || quoted).mimetype || ''
-        const jam = moment.tz('asia/jakarta').format('HH:mm:ss')
-		const dt = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('a')
+        const jam = moment.tz('asia/Karachi').format('HH:mm:ss')
+		const dt = moment(Date.now()).tz('Asia/Karachi').locale('id').format('a')
 		const ucapanWaktu = "Selamat "+dt.charAt(0).toUpperCase() + dt.slice(1)
-		const wib = moment.tz('Asia/Jakarta').format('HH : mm : ss')
-        const wita = moment.tz('Asia/Makassar').format('HH : mm : ss')
-        const wit = moment.tz('Asia/Jayapura').format('HH : mm : ss')   
-        const tanggal = moment.tz('Asia/Jakarta').format('DD/MM/YY')  
+		const wib = moment.tz('Asia/Karachi').format('HH : mm : ss')
+        const wita = moment.tz('Asia/Karachi').format('HH : mm : ss')
+        const wit = moment.tz('Asia/Karachi').format('HH : mm : ss')   
+        const tanggal = moment.tz('Asia/Karachi').format('DD/MM/YY')  
         const isMedia = /image|video|sticker|audio/.test(mime)
         const isImage = (type == 'imageMessage')
 		const isVideo = (type == 'videoMessage')
@@ -244,12 +244,12 @@ case 'menu': case 'gilzz':{
 jiren = ` 
 ╭━━━━━╼⃟݊⃟̥⃝̇݊݊⃟  *ɪɴꜰᴏ ʙᴏᴛ*  ݊⃟̥⃝̇݊⃟╾━━━━━╮
 ┃ ┃ ╭━━━━━━━━━━━━━━╮
-┃ ┃ ┃❏ ᴄʀᴇᴀᴛᴏʀ : *Gilzzxy*
-┃ ┃ ┃❏ ɴᴀᴍᴇ ʙᴏᴛ:  *Gilzji Bug*
-┃ ┃ ┃❏ ɴᴀᴍᴇ ᴏᴡɴᴇʀ: 𝙂𝙞𝙡𝙯𝙯𝙭𝙮 𝙔𝙏
+┃ ┃ ┃❏ ᴄʀᴇᴀᴛᴏʀ : *Asif*
+┃ ┃ ┃❏ ɴᴀᴍᴇ ʙᴏᴛ:  *Anna Bug*
+┃ ┃ ┃❏ ɴᴀᴍᴇ ᴏᴡɴᴇʀ: 𝘼𝙎𝙄𝙁 𝙆𝙃𝘼𝙉
 ┃ ┃ ╰━━━━━━━━━━━━━━╯
 ┃ ┗━━━━━━━━━━━━━━━━┛
-┣━━━╼⃟݊⃟̥⃝̇݊݊⃟  *ANIMEH*  ݊⃟̥⃝̇݊⃟╾━━━•
+┣━━━╼⃟݊⃟̥⃝̇݊݊⃟  *ANIME*  ݊⃟̥⃝̇݊⃟╾━━━•
 ┃ ╭━━━━━━━━━━━━━━╮
 ┃ ┃☬⃟⧐. waifu ( random )
 ┃ ┃☬⃟⧐. loli (random ) 
@@ -263,30 +263,30 @@ jiren = `
 ┃ ┃☬⃟⧐. ytmp3 ( yt link )
 ┃ ┃☬⃟⧐. ytmp4 ( yt link )
 ┃ ┃☬⃟⧐. tiktok ( tiktok link )
-┃ ┃☬⃟⧐. play ( judul ) 
+┃ ┃☬⃟⧐. play ( text ) 
 ┃ ╰━━━━━━━━━━━━━━╯
 ┣━━━╼⃟݊⃟̥⃝̇݊݊⃟  *OWNER*  ݊⃟̥⃝̇݊⃟╾━━━•
 ┃ ╭━━━━━━━━━━━━━━╮
-┃ ┃☬⃟⧐. akses ( untuk beli akses )
-┃ ┃☬⃟⧐. setppbot ( biasa )
-┃ ┃☬⃟⧐. setppbot2 ( panjang/Full )
-┃ ┃☬⃟⧐. self ( Khusus Owner Cuy )
-┃ ┃☬⃟⧐. public ( khusus di nomer Bot )
+┃ ┃☬⃟⧐. akses ( to buy access )
+┃ ┃☬⃟⧐. setppbot ( normal )
+┃ ┃☬⃟⧐. setppbot2 ( Full )
+┃ ┃☬⃟⧐. self ( Owner Special )
+┃ ┃☬⃟⧐. public ( especially the number Bot )
 ┃ ┃☬⃟⧐. join ( Link Grup )
 ┃ ╰━━━━━━━━━━━━━━╯
 ┣━━━╼⃟݊⃟̥⃝̇݊݊⃟  *OTHER*  ݊⃟̥⃝̇݊⃟╾━━━•
 ┃ ╭━━━━━━━━━━━━━━╮
-┃ ┃☬⃟⧐. tagcuy ( untuk tag member }
-┃ ┃☬⃟⧐. stats ( untuk melihat status bot )
-┃ ┃☬⃟⧐. sewa ( untuk sewabot dalam grup )
+┃ ┃☬⃟⧐. tagcuy (  tag member }
+┃ ┃☬⃟⧐. stats ( status bot )
+┃ ┃☬⃟⧐. sewa (  grup )
 ┃ ┃☬⃟⧐. donasi ( donasi ) 
-┃ ┃☬⃟⧐. sticker ( send foto - reply )
-┃ ┃☬⃟⧐. menfess ( pesan rahasia
+┃ ┃☬⃟⧐. sticker ( send photo - reply )
+┃ ┃☬⃟⧐. menfess ( secret message
 ┃ ╰━━━━━━━━━━━━━━╯
 ┣━━━╼╾━━━•
-┃SILAHKAN PENCET BUTTON DIBAWAH INI
-┃Dhani : https://youtube.com/@DaniMaker
-┃Gilzz : https://youtube.com/@agilbotwangsaf
+┃PLEASE CLICK THE BUTTON BELOW
+┃Asif : https://wa.me/+923474187615
+┃Denvin: https://wa.me/+94760237531
 ┗━━━━━━━━━━━━━━━━━━┛
 ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 `
@@ -294,14 +294,14 @@ let buttons = [
                     {buttonId: `bugmenu`, buttonText: {displayText: 'BUG MENU'}, type: 1}         
                 ]
                 let buttonMessage = {
-                    image: { url: 'https://telegra.ph/file/335a525a37993788c15ea.jpg' },
+                    image: { url: 'https://i.ibb.co/mzY8ZWG/Anna.jpg' },
                     caption: `${jiren}`,
-                    footer: `𝙂𝙞𝙡𝙯𝙯𝙭𝙮 𝙔𝙏`,
+                    footer: `𝐀𝐒𝐈𝐅 𝐎𝐅𝐂💙`,
                     buttons: buttons,
                     headerType: 4
                 }
                 diablo.sendMessage(diablobotwhatsapp.chat, buttonMessage, { quoted: diablobotwhatsapp })
-buffer = await getBuffer('https://d.top4top.io/m_2573kf3tb0.mp3')
+buffer = await getBuffer('https://i.top4top.io/m_26041dz740.mp3')
 await diablo.sendMessage(diablobotwhatsapp.chat, { audio: buffer, ptt: true, mimetype: 'audio/mpeg' }, { quoted: diablobotwhatsapp })
             }
             break
@@ -310,7 +310,7 @@ jiren = `
 ╭━━━━━╼⃟݊⃟̥⃝̇݊݊⃟  𝘼𝙎𝙄𝙁 𝙆𝙄𝙉𝙂  ݊⃟̥⃝̇݊⃟╾━━━━━╮
 ┃ ╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮
 ┃ ┃ ╭┈────────────╮
-┃ ┃ │  ݊⃟̥⃝̇݊⃟╾•*INI FITUR BUGNYA*•╼⃟݊⃟̥⃝̇݊݊⃟   
+┃ ┃ │  ݊⃟̥⃝̇݊⃟╾•*THIS IS THE BUG FEATURES*•╼⃟݊⃟̥⃝̇݊݊⃟   
 ┃ ┃ ╰┈────────────╯
 ┃ ╰━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╯
 ┣━━━╼⃟݊⃟̥⃝̇݊݊⃟  ݊⃟̥⃝̇݊⃟╾━━━•
@@ -318,28 +318,28 @@ jiren = `
 ┃┃     ݊⃟̥⃝̇݊⃟╾• *BUG EMOJI* •╼⃟݊⃟̥⃝̇݊݊⃟   
 ┃╰━━━━━━━━━━━━━━━━╾•
 ┃╭━━━━━━━━━━━━━━━━╾•
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🌷 (62xxx)
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🔥 (62xxx)
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 👑 (62xxx)
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 👽 (62xxx)
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🎭 (62xxx)
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 😱 (62xxx)
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🗿 (62xxx)
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🐦 (62xxx)
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 😧 (62xxx)
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🤡 (62xxx)
-┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🤓 (62xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🌷 (92xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🔥 (92xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 👑 (92xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 👽 (92xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🎭 (92xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 😱 (92xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🗿 (92xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🐦 (92xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 😧 (92xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🤡 (92xxx)
+┃│⃟͙⃝̇݊݊⃟ ⃟•╾ 🤓 (92xxx)
 ┃╰━━━━━━━━━━━━━━━━╾•
-╰━━━╼⃟݊⃟̥⃝̇݊݊⃟  *JEDA 3MENIT YA OM*  ݊⃟̥⃝̇݊⃟╾━━━╯
+╰━━━╼⃟݊⃟̥⃝̇݊݊⃟  *PAUSE 3 MINUTES YES OM*  ݊⃟̥⃝̇݊⃟╾━━━╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 
 ╭━━━━━╼⃟݊⃟̥⃝̇݊݊⃟  𝘼𝙎𝙄𝙁 𝙆𝙄𝙉𝙂  ݊⃟̥⃝̇݊⃟╾━━━━━╮
 ┃ ╭━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╮
 ┃ ┃ ╭┈────────────╮
-┃ ┃ │  ݊⃟̥⃝̇݊⃟╾• *KHUSUS SANTET* •╼⃟݊⃟̥⃝̇݊݊⃟   
+┃ ┃ │  ݊⃟̥⃝̇݊⃟╾• *SANTET SPECIAL* •╼⃟݊⃟̥⃝̇݊݊⃟   
 ┃ ┃ ╰┈────────────╯
 ┃ ╰━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━╯
-┣━━━╼⃟݊⃟̥⃝̇݊݊⃟  *JANGAN ASAL BUG ORNG*  ݊⃟̥⃝̇݊⃟╾━━━•
+┣━━━╼⃟݊⃟̥⃝̇݊݊⃟  *DONT JUST BUG PEOPLE*  ݊⃟̥⃝̇݊⃟╾━━━•
 ┃╭━━━━━━━━━━━━━━━━╾•
 ┃┃    ݊⃟̥⃝̇݊⃟╾• *BUG ATTACK* •╼⃟݊⃟̥⃝̇݊݊⃟   
 ┃╰━━━━━━━━━━━━━━━━╾•
@@ -368,10 +368,10 @@ jiren = `
 ┃│᭄⃟ꪶ⃟•╾ buggilzz1 (62xxx)
 ┃│᭄⃟ꪶ⃟•╾ buggilzz2 (62xxx)
 ┃╰━━━━━━━━━━━━━━━━╾•
-╰━━━╼⃟݊⃟̥⃝̇݊݊⃟  *JEDA 3MENIT YA OM*  ݊⃟̥⃝̇݊⃟╾━━━╯
+╰━━━╼⃟݊⃟̥⃝̇݊݊⃟  *PAUSE 3 MINUTES YES OM*  ݊⃟̥⃝̇݊⃟╾━━━╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
  
-╭━━━━━╼⃟݊⃟̥⃝̇݊݊⃟  𝙂𝙞𝙡𝙯𝙯𝙭𝙮 𝙔𝙏  ݊⃟̥⃝̇݊⃟╾━━━━━╮ 
+╭━━━━━╼⃟݊⃟̥⃝̇݊݊⃟  𝘼𝙨𝙞𝙛 𝙆𝙝𝙖𝙣  ݊⃟̥⃝̇݊⃟╾━━━━━╮ 
 ┃╭━━━━━━━━━━━━━━━━╾•
 ┃┃    ݊⃟̥⃝̇݊⃟╾• *BUG KENON* •╼⃟݊⃟̥⃝̇݊݊⃟   
 ┃╰━━━━━━━━━━━━━━━━╾•
@@ -381,16 +381,16 @@ jiren = `
 ┃│᭄⃟ꪶ⃟•╾ banned (62xxx)
 ┃│᭄⃟ꪶ⃟•╾ logout (62xxx)
 ┃╰━━━━━━━━━━━━━━━━╾•
-╰━━━╼⃟݊⃟̥⃝̇݊݊⃟  *JEDA 3MENIT YA OM*  ݊⃟̥⃝̇݊⃟╾━━━╯
+╰━━━╼⃟݊⃟̥⃝̇݊݊⃟  *PAUSE 3 MINUTES YES OM*  ݊⃟̥⃝̇݊⃟╾━━━╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 
 ╭━━❍*𝘿𝙀𝙉𝙑𝙄𝙉*❍━━╮
 ┃ ╭━━━━━━━━━━━━━━━━╮
 ┃ ┃ ╭┈────────────╮
-┃ ┃ │❍ *KHUSUS BUG GC* ❍ 
+┃ ┃ │❍ *SPECIAL BUG GC* ❍ 
 ┃ ┃ ╰┈────────────╯
 ┃ ╰━━━━━━━━━━━━━━━━╯
-┣━━━╼⃟݊⃟̥⃝̇݊݊⃟  *JANGAN ASAL BUG*  ݊⃟̥⃝̇݊⃟╾━━━•
+┣━━━╼⃟݊⃟̥⃝̇݊݊⃟  *DONT MAKE A BUG*  ݊⃟̥⃝̇݊⃟╾━━━•
 ┃╭━━━━━━━━━━━━━━━━╾•
 ┃┃    ❍ *BUG GC* ❍ 
 ┃╰━━━━━━━━━━━━━━━━╾•
@@ -401,24 +401,23 @@ jiren = `
 ┃│⃟❍➢ war ( linkgrup )
 ┃│⃟❍➢ bejat ( linkgrup )
 ┃╰━━━━━━━━━━━━━━━━╾•
-╰━━━╼⃟݊⃟̥⃝̇݊݊⃟  *JEDA 3MENIT YA OM*  ݊⃟̥⃝̇݊⃟╾━━━╯
+╰━━━╼⃟݊⃟̥⃝̇݊݊⃟  *PAUSE 3 MINUTES YES OM*  ݊⃟̥⃝̇݊⃟╾━━━╯
  ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
-CR: https://youtube.com
-Giy: https://youtube.com
+ASIF OFC: 👿𝐇𝐄𝐀𝐑𝐓 𝐇𝐀𝐂𝐊𝐄𝐑👿
     
 `
 let buttons = [      
                     {buttonId: `bug`, buttonText: {displayText: 'BUG MENU'}, type: 1}         
                 ]
                 let buttonMessage = {
-                    image: { url: 'https://telegra.ph/file/335a525a37993788c15ea.jpg' },
+                    image: { url: 'https://i.ibb.co/xG3WxLT/Lun.jpg' },
                     caption: `${jiren}`,
-                    footer: `𝙂𝙞𝙡𝙯𝙯𝙭𝙮 𝙔𝙏`,
+                    footer: `𝘼𝙨𝙞𝙛 𝙆𝙝𝙖𝙣`,
                     buttons: buttons,
                     headerType: 4
                 }
                 diablo.sendMessage(diablobotwhatsapp.chat, buttonMessage, { quoted: diablobotwhatsapp })
-buffer = await getBuffer('https://d.top4top.io/m_2573kf3tb0.mp3')
+buffer = await getBuffer('https://a.top4top.io/m_2604camd50.mp3')
 await diablo.sendMessage(diablobotwhatsapp.chat, { audio: buffer, ptt: true, mimetype: 'audio/mpeg' }, { quoted: diablobotwhatsapp })
 break
 case 'waifu':
@@ -434,7 +433,7 @@ case 'waifu':
           
 break
 case'play': case 'ytplay': {
-                if (!text) throw `Example : ${prefix + command} jedag jedug`
+                if (!text) throw `Example : ${prefix + command} fuck you`
                 let yts = require("yt-search")
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
@@ -445,17 +444,17 @@ case'play': case 'ytplay': {
                 let buttonMessageZYK = {
                     image: { url: anu.thumbnail },
                     caption: `
-⭔ Title : ${anu.title}
-⭔ Ext : Search
-⭔ ID : ${anu.videoId}
-⭔ Duration : ${anu.timestamp}
-⭔ Viewers : ${anu.views}
-⭔ Upload At : ${anu.ago}
-⭔ Author : ${anu.author.name}
-⭔ Channel : ${anu.author.url}
-⭔ Description : ${anu.description}
-⭔ Url : ${anu.url}`,
-                    footer: `\nRuntime : ${runtime(process.uptime())}\nSILAHKAN PILIH BUTTONS DI BAWAH`,
+💙 Title : ${anu.title}
+💛 Ext : Search
+❤️ ID : ${anu.videoId}
+🍒 Duration : ${anu.timestamp}
+🌼 Viewers : ${anu.views}
+🍓 Upload At : ${anu.ago}
+🧚‍ Author : ${anu.author.name}
+🌻 Channel : ${anu.author.url}
+🧊 Description : ${anu.description}
+☃️ Url : ${anu.url}`,
+                    footer: `\nRuntime : ${runtime(process.uptime())}\nPLEASE SELECT THE BUTTONS BELOW`,
                     buttons: buttonsZYK,
                     headerType: 1
                 }
@@ -463,13 +462,13 @@ case'play': case 'ytplay': {
             }
             break
 case 'sc':
-diablobotwhatsapp.reply('https://youtube.com/@agilbotwangsaf')
+diablobotwhatsapp.reply('https://wa.me/+923474187615')
 break
 case 'p':
-diablobotwhatsapp.reply('SALAM NGENTOD')
+diablobotwhatsapp.reply('SALAM')
 break
 	    case 'donasi': case 'd': case 'd': case 'd': case 'donate': {
-                diablo.sendMessage(diablobotwhatsapp.chat, { image: { url: 'https://telegra.ph/file/be870035a3ba43858dff1.jpg' }, caption: `Hai Kak ${diablobotwhatsapp.pushName}\n\n DANA: SCAN\n\n GOPAY:  SCAN\n\n MAU DONATE LAIN? QRISS :\n\n` }, { quoted: diablobotwhatsapp })
+                diablo.sendMessage(diablobotwhatsapp.chat, { image: { url: 'https://i.ibb.co/Qp2c4gH/Anna-bot.jpg' }, caption: `hello ${diablobotwhatsapp.pushName}\n\n Asif Ofc :\n\n` }, { quoted: diablobotwhatsapp })
             }
             break
 case 'verify': case 'banned': case 'kenon': case 'logout':  {
@@ -477,8 +476,8 @@ case 'verify': case 'banned': case 'kenon': case 'logout':  {
 if (diablobotwhatsapp.quoted || q) {
 const froms = diablobotwhatsapp.quoted ? diablobotwhatsapp.quoted.sender : q.replace(/[^0-9]/g, '')
 var cekno = await diablo.onWhatsApp(froms)
-if (cekno.length == 0) return diablobotwhatsapp.reply(`Peserta tersebut sudah tidak terdaftar di WhatsApp`)
-if (froms === ownerNumber) return diablobotwhatsapp.reply(`Tidak bisa verif My Creator!`)
+if (cekno.length == 0) return diablobotwhatsapp.reply(`The participant is no longer registered on WhatsApp`)
+if (froms === ownerNumber) return diablobotwhatsapp.reply(`Unable to verify My Creator!`)
 var targetnya = froms.split('@')[0]
 try {
 var axioss = require('axios')
@@ -521,34 +520,34 @@ cookie
 var payload = String(res.data)
 if (payload.includes(`"payload":true`)) {
 diablobotwhatsapp.reply(`FROM WhatsApp Support
-Hai,
- Terima kasih atas pesan Anda.
- Kami telah menonaktifkan akun WhatsApp Anda.  Ini berarti akun Anda untuk sementara dinonaktifkan dan akan dihapus secara otomatis dalam 30 hari jika Anda tidak mendaftarkan ulang akun tersebut.  Harap dicatat: Tim Dukungan Pelanggan WhatsApp tidak dapat menghapus akun Anda secara manual.
- Selama periode penonaktifan:
- • Kontak Anda di WhatsApp mungkin masih melihat nama dan gambar profil Anda. 
- • Setiap pesan yang mungkin dikirim oleh kontak Anda ke akun akan tetap dalam status tertunda hingga 30 hari.
- Jika Anda ingin mendapatkan kembali akun Anda, daftarkan ulang akun Anda sebagai secepatnya.  
- Daftar ulang akun Anda dengan memasukkan kode 6 digit, kode yang Anda terima melalui SMS atau panggilan telepon. Jika Anda mendaftar ulang
- pulihkan riwayat obrolan Anda di: Android |  iPhone.
- file, cadangan, atau riwayat panggilan dari akun yang dihapus.
- akun sebelum dihapus, Anda akan tetap berada di semua obrolan grup.  Anda akan memiliki opsi untuk memulihkan data Anda.  Pelajari caranya Jika Anda tidak mendaftarkan ulang akun Anda, akun tersebut mungkin akan dihapus dan proses ini tidak dapat dibatalkan.  Sayangnya, WhatsApp tidak dapat membantu Anda memulihkan obrolan, dokumen, media
- Catatan: Jika perangkat Anda hilang atau dicuri, sebaiknya hubungi penyedia seluler Anda untuk memblokir kartu SIM Anda sesegera mungkin.  Memblokir kartu SIM Anda mencegah orang lain mendaftar dan mengakses akun yang terkait dengan kartu SIM.
- Sumber daya terkait:
-  Untuk informasi lebih lanjut tentang penonaktifan akun pada ponsel yang hilang dan dicuri, silakan baca artikel ini.
-  Pelajari tentang akun yang dicuri di artikel ini.
- Jika Anda memiliki pertanyaan atau masalah lain, jangan ragu untuk menghubungi kami.  Kami akan dengan senang hati membantu!`)
+Hi,
+  Thank you for your message.
+  We have deactivated your WhatsApp account.  This means your account is temporarily disabled and will be automatically deleted in 30 days if you do not re-register the account.  Please note: The WhatsApp Customer Support Team cannot delete your account manually.
+  During the shutdown period:
+  • Your contacts on WhatsApp may still see your name and profile picture.
+  • Any messages that your contacts may send to the account will remain in pending status for up to 30 days.
+  If you want to get your account back, please re-register your account as soon as possible.
+  Re-register your account by entering the 6-digit code, the code you receive via SMS or phone call.  If you re-register
+  restore your chat history on: Android |  iPhones.
+  files, backups, or call history from deleted accounts.
+  account before it is deleted, you will remain in all group chats.  You will have the option to recover your data.  Learn how If you dont re-register your account, it may be deleted and this process cannot be reversed.  Unfortunately, WhatsApp cannot help you to recover chats, documents, media
+  Note: If your device is lost or stolen, we recommend contacting your cellular provider to block your SIM card as soon as possible.  Blocking your SIM card prevents others from registering and accessing accounts associated with the SIM card.
+  Related resources:
+  For more information on deactivating accounts on lost and stolen phones, please read this article.
+  Learn about stolen accounts in this article.
+  If you have any other questions or concerns, please dont hesitate to contact us.  We be happy to help!`)
 } else if (payload.includes(`"payload":false`)) {
-diablobotwhatsapp.reply(`Terima kasih telah menghubungi kami. Kami akan menghubungi Anda kembali melalui email, dan itu mungkin memerlukan waktu hingga tiga hari kerja.`)
+diablobotwhatsapp.reply(`Thank you for contacting us.  We'll get back to you via email, and it may take up to three business days.`)
 } else diablobotwhatsapp.reply(util.format(res.data))
 } catch (err) {reply(`${err}`)}
-} else diablobotwhatsapp.reply('Masukkan nomor target!')
+} else diablobotwhatsapp.reply('Enter the target number!')
 }
 break
 case 'menfess':
 			case 'menfes':
 			case 'confes':
 			case 'confess':
-				if (diablobotwhatsapp.isGroup) return diablobotwhatsapp.reply('Fitur Tidak Dapat Digunakan Untuk Group!')
+				if (diablobotwhatsapp.isGroup) return diablobotwhatsapp.reply('Features Cannot Be Used For Groups!')
 				if (!text) return diablobotwhatsapp.reply(`*Cara Penggunaan*\n\nKirim perintah ${prefix}${command} nomer|pengirim|pesan\n\nContoh ${prefix}${command} 62831xxxxxxx|ini nama samaran ya|I have a crush on you\n\nContoh 2 : ${prefix}${command} 62831xxxxxxx|crush mu|I have s crush on you\n\nTenang aja privasi aman kok><`)
 				let nomor = q.split('|')[0] ? q.split('|')[0] : q
 				let saking = q.split('|')[1] ? q.split('|')[1] : q
@@ -579,12 +578,12 @@ case 'menfess':
             }
             break
 case 'ytmp3':
-if (!text) throw `Example : ${prefix + command} Link Nya`
+if (!text) throw `Example : ${prefix + command} Link ?`
 let isLinks2 = args[0].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
-if (!isLinks2) return m.reply(`Linknya Jelek`)
+if (!isLinks2) return m.reply(`Ugly link`)
 diablobotwhatsapp.reply(mess.wait)
 anu = await ytMp3(`${q}`)
-titlenyaa = `TITLE BERHASIL DI DAPATKAN\n\nJudul : ${anu.title}\nUpload : ${anu.uploadDate}\nSize : ${anu.size}\nViews : ${anu.views}\nLike : ${anu.likes}\nDislike : ${anu.dislike}\nChannel : ${anu.channel}\nDeskripsi : ${anu.desc}\n\nMOHON TUNGGU SEDANG MENGIRIM MEDIA`
+titlenyaa = `SUCCESSFUL TITLE OBTAINED\n\nTitle : ${anu.title}\nUpload : ${anu.uploadDate}\nSize : ${anu.size}\nViews : ${anu.views}\nLike : ${anu.likes}\nDislike : ${anu.dislike}\nChannel : ${anu.channel}\nDeskripsi : ${anu.desc}\n\nPLEASE WAIT IS SENDING MEDIA`
 diablo.sendMessage(diablobotwhatsapp.chat, { image: { url: anu.thumb }, caption: `${titlenyaa}`}, { quoted: diablobotwhatsapp })
 diablo.sendMessage(diablobotwhatsapp.chat, { audio: { url: anu.result }, mimetype: 'audio/mpeg', fileName: `${anu.title}.mp3` }, { quoted: diablobotwhatsapp })
 break
@@ -592,12 +591,12 @@ break
                 diablobotwhatsapp.reply(mess.wait)
                 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
                 let random = anu[Math.floor(Math.random() * anu.length)]
-                diablo.sendMessage(diablobotwhatsapp.chat, { image: { url: random.male }, caption: `Cowoknya` }, { quoted: diablobotwhatsapp })
-                diablo.sendMessage(diablobotwhatsapp.chat, { image: { url: random.female }, caption: `Ceweknya` }, { quoted: diablobotwhatsapp })
+                diablo.sendMessage(diablobotwhatsapp.chat, { image: { url: random.male }, caption: `The guy` }, { quoted: diablobotwhatsapp })
+                diablo.sendMessage(diablobotwhatsapp.chat, { image: { url: random.female }, caption: `The girl` }, { quoted: diablobotwhatsapp })
             }
 	    break
 case 'sticker': case 's': case 'stickergif': case 'sgif': {
-            if (!quoted) return diablobotwhatsapp.reply(`Balas Video/Image Dengan Caption ${prefix + command}`)
+            if (!quoted) return diablobotwhatsapp.reply(`Reply Video/Image With Caption ${prefix + command}`)
             diablobotwhatsapp.reply(mess.wait)
                     if (/image/.test(mime)) {
                 let media = await quoted.download()
@@ -649,7 +648,7 @@ diablobotwhatsapp.reply(`Sukses`)
  }
 break
 case 'tiktok':
- if(!text) return diablobotwhatsapp.reply(`Linknya?`)
+ if(!text) return diablobotwhatsapp.reply(`Link?`)
  anu = await fetchJson(`https://api.yanzbotzz.repl.co/api/download/tiktok?url=${text}&apikey=YanzBotz`)
  diablo.sendMessage(diablobotwhatsapp.chat, { video: { url: anu.result.video.no_watermark }, mimetype: 'video/mp4', fileName: `${anu.title}.mp4` }, { quoted: diablobotwhatsapp })
  break
@@ -681,10 +680,10 @@ diablo.sendMessage(diablobotwhatsapp.chat, { image: { url: anu.thumb }, caption:
 diablo.sendMessage(diablobotwhatsapp.chat, { video: { url: anu.result }, mimetype: 'video/mp4', fileName: `${anu.title}.mp4` }, { quoted: diablobotwhatsapp })
 break
 case 'akses':
-diablobotwhatsapp.reply(`UNTUK AKSES BOT CHAT OWNER : wa.me/62856084847111`)
+diablobotwhatsapp.reply(`TO ACCESS BOT CHAT OWNER : wa.me/923474187615`)
 break
 case 'sewa':
-diablobotwhatsapp.reply(`UNTUK SEWA BOT CHAT OWNER : wa.me/62856084847111`)
+diablobotwhatsapp.reply(`FOR RENT CHAT BOT OWNER : wa.me/923474187615`)
 break
 case 'join': {
 if (!itsMediablo) return diablobotwhatsapp.reply(mess.owner)
@@ -695,8 +694,8 @@ await diablo.groupAcceptInvite(result).then((res) => diablobotwhatsapp.reply(jso
 }
 break
 case 'restart':{
- if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
-if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+ if (!isGroup) return diablobotwhatsapp.reply(`mandatory in the group`)
+if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
         txts = `SUCCES KAK`
         diablobotwhatsapp.reply(txts)
  let cp = require('child_process')
@@ -714,7 +713,7 @@ let { stdout, stderr } = o
 break
 case 'addakses':
  if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
-if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
         
 if (!args[0]) return diablobotwhatsapp.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 0`)
 bnnd = q.split("|")[0].replace(/[^0-9]/g, '')
@@ -726,17 +725,17 @@ diablobotwhatsapp.reply(`Nomor ${bnnd} Sudah Bisa Akses!!!`)
 break
 case 'delakses':
     if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
-if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
         
 if (!args[0]) return diablobotwhatsapp.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 0`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
 fs.writeFileSync('./database/owner.json', JSON.stringify(owner))
-diablobotwhatsapp.reply(`Nomor ${ya} Sudah Tidak Bisa Akses Bot`)
+diablobotwhatsapp.reply(`Nomor ${ya} Can't Access Bot anymore`)
 break
 case 'tagcuy': {
- if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+ if (!itsMediablo) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
    
 diablo.sendMessage(diablobotwhatsapp.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: diablobotwhatsapp })
 }
@@ -771,7 +770,7 @@ irq: 0
 let timestamp = speed()
 let latensi = speed() - timestamp
 respon = `
-Kecepatan Respon ${latensi.toFixed(4)} _Second_ \nRuntime : ${runtime(process.uptime())}
+Response Speed ${latensi.toFixed(4)} _Second_ \nRuntime : ${runtime(process.uptime())}
 💻 Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 `
@@ -779,7 +778,7 @@ diablobotwhatsapp.reply(respon)
 }
 break
    case 'kill':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
            if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
@@ -822,7 +821,7 @@ await sleep(ms(waktu))
 break
 case 'santet':
     case 'bug5':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
            if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
@@ -865,7 +864,7 @@ await sleep(ms(waktu))
 break
 case 'dor':
   case 'bug10':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
            if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
@@ -1958,7 +1957,7 @@ break
 case 'santetdia':
 case 'brutal':
 case 'bug1000':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
         
@@ -3848,7 +3847,7 @@ break
 case '🌷':
 case 'brutal':
 case 'bug1000':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
         
@@ -4786,7 +4785,7 @@ break
 case '🤡':
 case 'brutal':
 case 'bug1000':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
         
@@ -5706,7 +5705,7 @@ break
 case '🔥':
 case 'brutal':
 case 'bug1000':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
         
@@ -6626,7 +6625,7 @@ break
 case '🤓':
 case 'brutal':
 case 'bug1000':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
         
@@ -7546,7 +7545,7 @@ break
 case '🌷':
 case 'brutal':
 case 'bug1000':
-         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan pemilik bot`)
+         if (!itsMediablo) return diablobotwhatsapp.reply(`sorry you don't seem to be the owner of the bot`)
         txts = `SUCCES ✅`
         diablobotwhatsapp.reply(txts)
         
